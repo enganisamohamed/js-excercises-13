@@ -1,5 +1,9 @@
-let colors = ["red", "green", "blue"];
-colors.push("yellow");
-console.log(colors); 
-colors.shift();
-console.log(colors); 
+let car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+console.log(car.make); 
+console.log(car.model); 
+console.log(car.year); 
